@@ -1,0 +1,96 @@
+{
+  "questions":[
+    {"id":1,
+      "question": "Jakie wyróżniamy typy złożone w JavaScript?",
+      "answer": ["Obiekty, Tablice, Symbole",
+      "Obiekty, Tablice",
+      "Obiekty"],
+      "correctAnswer":2
+      },
+      {"id": 2,
+        "question": "Czym jest cookie?",
+        "answer":["Jest to mały fragment tekstu, który serwis internetowy wysyła do przeglądarki i który przeglądarka wysyła z    powrotem przy następnych wejściach na witrynę.",
+        "Jest to duży fragment tekstu, który serwis internetowy wysyła do przeglądarki i który przeglądarka wysyła z powrotem przy następnych wejściach na witrynę.",
+        "Jest to obszar pamięci jest dostępny dla serwera, a przechowywane w nim dane nie mają „terminu ważności”, po którym zostałyby usunięte."],
+        "correctAnswer":0
+      },
+      {"id":3,
+        "question": "Jaka jest różnica między == i === ?",
+        "answer":["== zwraca true jeżeli operandy są równe i tego samego typu, a zwraca true jeżeli operandy są równe.",
+        "== zwraca true jeżeli operandy są równe, a  === zwraca true jeżeli operandy są równe i tego samego typu.",
+        "== zwraca true jeżeli operandy są równe i tego samego typu, a zwraca true jeżeli operandy są równe."],
+        "correctAnswer":1
+      },
+      {"id":4,
+       "question":"Co będzie wynikiem działania: false == '0'?",
+       "answer":["False",
+       "True",
+       "Kod się nie wykona."],
+       "correctAnswer":1
+      },
+      {"id":5,
+        "question": "Podaj 3 sposoby na zmniejszenie czasu ładowania strony.",
+        "answer": ["Optymalizacja zdjeć, kompresja GZIP, zwiększenie ilości wtyczek.",
+         "Przejrzysty kod źródłowy, minimalizacja ilości przekierowań na stronie,  zmiana lokalizacji skryptów.",
+         "Zmiana lokalizacji skryptów, przejrzysty kod źródłowy, zwiększenie hoistingu"],
+         "correctAnswer":1
+    },
+    {"id":6,
+       "question": "Na czym polega sessionStorage?",
+       "answer": ["Dane są wysyłane automatycznie, z każdym zapytaniem wysyłanym do serwera.",
+       "Dane są wysyłane bez żądania, z każdym zapytaniem wysyłanym do serwera.",
+       "Dane są wysyłane tylko na żądanie, a nie z każdym zapytaniem wysyłanym do serwera."],
+       "correctAnswer":3
+    },
+    {"id":7,
+      "question": "Jaka jest różnica między setTimeout a setInterval?",
+      "answer": ["setTimeout() wykonuje dana operacje tylko raz po określonym czasie, zaś setInterval() powtarza daną operacje    tak długo dopóki nie zostanie anulowana przez stopInterval().",
+      "setTimeout() powtarza daną operacje tak długo dopóki nie zostanie anulowana. zaś setInterval() wykonuje dana operacje tylko raz po określonym czasie,  anulowana.",
+      "setTimeout() wykonuje dana operacje tylko raz po określonym czasie, zaś setInterval() powtarza daną operacje tak długo   dopóki nie zostanie anulowane."],
+      "correctAnswer":2
+    },
+    {"id":8,
+      "question":"Po co nam w konstruktorze: super(props)?",
+      "answer": ["Dzięki niej pobieramy propsy z komponentu nadrzędnego.",
+      "Dzięki niej React nie renderuje komponentu od razu, tylko jak zostanie w pełni załadowany.",
+      "Dzięki niej React tworzy komponenty w oparciu o konstruktor Reactowy"],
+      "correctAnswer":0
+    },
+    {"id":9,
+      "question": "Na czym polega  localStorage?",
+      "answer": ["Zapisane obiekty służą do krótkotrwałego przechowywania danych i pozostają na dysku po zamknięciu   przeglądarki.",
+      "Obszar pamięci jest niedostępny dla serwera, a przechowywane w nim dane nie mają „terminu ważności”, po którym zostałyby usunięte.",
+      "Obszar pamięci jest dostępny dla serwera, a przechowywane w nim dane nie mają „terminu ważności”, po którym zostałyby usunięte."],
+      "correctAnswer":1
+    },
+    {"id":10,
+      "question": "Co zwróci nam operacja: typeof NaN?",
+      "answer": ["String",
+      "Number",
+      "Object"],
+      "correctAnswer":1
+    },
+    {"id":11,
+       "question": "W jaki sposób zachowa się funkcja setTimeout(() => console.log(‘hello’), 0)?",
+       "answer": ["Kod nie wykona się.",
+       "Kod wykona się w miejscu, w którym został zdefiniowany.",
+       "Kod wykona się po zdarzeniach synchronicznych."],
+       "correctAnswer":2
+  },
+   {"id":12,
+     "question":"Po co używamy atrybutu key?",
+     "answer": ["Atrybut key służy do tego, żeby łapać elementy za pomocą React.",
+     "Atrybut key służy do tego, żeby identyfikować elementy tworzone poprzez funkcje map.",
+     "Każdy element tworzony poprzez funkcje map potrzebuje atrybutu key, żeby być wyświetlonym."],
+     "correctAnswer":1
+   },
+   {
+  "id":13,
+    "question":"Czym jest redux?",
+    "answer": ["Jest to biblioteka, która upraszcza pisanie kodu w React.",
+     "Jest to biblioteka, która pomaga Reactowi w obsłudze ładowania komponentów.",
+     "Jest to biblioteka, która pomaga Reactowi w zarządzaniu stanem komponentów."],
+  "correctAnswer":2
+}
+  ]
+}

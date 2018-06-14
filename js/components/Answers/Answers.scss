@@ -1,0 +1,47 @@
+.answers{
+  margin: 40px 20px;
+  line-height: 3;
+}
+.ans{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  background: white;
+  line-height: 30px;
+  border-radius: 20px;
+  color: #0a0a1c;
+}
+.ans:hover, .ans:focus{
+  transform: scale(1.1);
+}
+
+
+.next__Btn{
+  margin-top: 10px;
+  padding: 0;
+  width: 200px;
+  height: 80px;
+  background: #3B3BB0 ;
+  text-transform: uppercase;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 20px;
+  float: right;
+  border-radius: 20px;
+  color: white;
+
+}
+  .score{
+    margin-top: 10px;
+    padding: 0;
+    width: 200px;
+    height: 78px;
+    background: #3B3BB0;
+    text-transform: uppercase;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+    border-radius: 20px;
+    color:white;
+  }
