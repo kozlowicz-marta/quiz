@@ -7,6 +7,8 @@ import "./App.scss";
 import Question from "../Question/Question.jsx";
 import Answers from "../Answers/Answers.jsx";
 
+import Results from "../Results/Results.jsx";
+
 export default class App extends React.Component {
   constructor(props) {
       super(props);
@@ -36,12 +38,18 @@ export default class App extends React.Component {
 
 
     changeQuestion = () => {
-        this.setState({
-          currentQuestion: this.state.question[this.state.counter + 1],
-          counter: this.state.counter + 1,
-          color: "white",
-          active: true
-        })
+
+        if(this.state.counter + 1 === this.state.question.length) {
+          this.props.history.push(`/results/${this.state.score}`)
+        } else {
+          this.setState({
+            currentQuestion: this.state.question[this.state.counter + 1],
+            counter: this.state.counter + 1,
+            color: "white",
+            active: true
+          })
+        }
+
     }
 
 
@@ -66,10 +74,6 @@ export default class App extends React.Component {
           }
         }
     }
-
-
-
-
 
 
 

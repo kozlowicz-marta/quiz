@@ -14,7 +14,7 @@ export default class Results extends React.Component {
         return (
           <div>
           <div className="containerBox">
-            <div className="resultScore">Zdobyte punkty {this.props.score}</div>
+            <div className="resultScore">Zdobyte punkty: {this.props.match.params.score}</div>
             <Link to="/quiz">
               <div className="resultTry">Spróbuj jeszcze raz</div>
             </Link>

@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function(){
                   <Switch>
                       <Route exact path="/" component={Home}/>
                       <Route path="/quiz" component={App}/>
-                      <Route path="/results" component={Results}/>
+                      <Route path="/results/:score" component={Results}/>
                   </Switch>
               </div>
           </HashRouter>,
