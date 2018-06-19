@@ -52,8 +52,6 @@ export default class App extends React.Component {
 
     }
 
-
-
     checkAnswer = (index, event) => {
         if(this.state.active) {
           if (index === this.state.currentQuestion.correctAnswer) {
@@ -75,8 +73,6 @@ export default class App extends React.Component {
         }
     }
 
-
-
     render() {
         if(this.state.question.length > 0) {
           return (
@@ -88,6 +84,5 @@ export default class App extends React.Component {
         } else {
           return null;
         }
-
     }
 }

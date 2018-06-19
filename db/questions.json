@@ -71,7 +71,7 @@
       "correctAnswer":1
     },
     {"id":11,
-       "question": "W jaki sposób zachowa się funkcja setTimeout(() => console.log(‘hello’), 0)?",
+       "question": "W jaki sposób zachowa się funkcja setTimeout ( () => console.log(‘hello’), 0 )?",
        "answer": ["Kod nie wykona się.",
        "Kod wykona się w miejscu, w którym został zdefiniowany.",
        "Kod wykona się po zdarzeniach synchronicznych."],
