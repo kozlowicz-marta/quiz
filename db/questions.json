@@ -9,7 +9,7 @@
       },
       {"id": 2,
         "question": "Czym jest cookie?",
-        "answer":["Jest to mały fragment tekstu, który serwis internetowy wysyła do przeglądarki i który przeglądarka wysyła z    powrotem przy następnych wejściach na witrynę.",
+        "answer":["Jest to mały fragment tekstu, który serwis internetowy wysyła do przeglądarki i który przeglądarka wysyła z powrotem przy następnych wejściach na witrynę.",
         "Jest to duży fragment tekstu, który serwis internetowy wysyła do przeglądarki i który przeglądarka wysyła z powrotem przy następnych wejściach na witrynę.",
         "Jest to obszar pamięci jest dostępny dla serwera, a przechowywane w nim dane nie mają „terminu ważności”, po którym zostałyby usunięte."],
         "correctAnswer":0
@@ -40,13 +40,13 @@
        "answer": ["Dane są wysyłane automatycznie, z każdym zapytaniem wysyłanym do serwera.",
        "Dane są wysyłane bez żądania, z każdym zapytaniem wysyłanym do serwera.",
        "Dane są wysyłane tylko na żądanie, a nie z każdym zapytaniem wysyłanym do serwera."],
-       "correctAnswer":3
+       "correctAnswer":2
     },
     {"id":7,
       "question": "Jaka jest różnica między setTimeout a setInterval?",
-      "answer": ["setTimeout() wykonuje dana operacje tylko raz po określonym czasie, zaś setInterval() powtarza daną operacje    tak długo dopóki nie zostanie anulowana przez stopInterval().",
-      "setTimeout() powtarza daną operacje tak długo dopóki nie zostanie anulowana. zaś setInterval() wykonuje dana operacje tylko raz po określonym czasie,  anulowana.",
-      "setTimeout() wykonuje dana operacje tylko raz po określonym czasie, zaś setInterval() powtarza daną operacje tak długo   dopóki nie zostanie anulowane."],
+      "answer": ["setTimeout() wykonuje dana operacje tylko raz po określonym czasie, zaś setInterval() powtarza daną operacje tak długo dopóki nie zostanie anulowana przez stopInterval().",
+      "setTimeout() powtarza daną operacje tak długo dopóki nie zostanie anulowana. zaś setInterval() wykonuje dana operacje tylko raz po określonym czasie, anulowana.",
+      "setTimeout() wykonuje dana operacje tylko raz po określonym czasie, zaś setInterval() powtarza daną operacje tak długo dopóki nie zostanie anulowane."],
       "correctAnswer":2
     },
     {"id":8,
@@ -58,7 +58,7 @@
     },
     {"id":9,
       "question": "Na czym polega  localStorage?",
-      "answer": ["Zapisane obiekty służą do krótkotrwałego przechowywania danych i pozostają na dysku po zamknięciu   przeglądarki.",
+      "answer": ["Zapisane obiekty służą do krótkotrwałego przechowywania danych i pozostają na dysku po zamknięciu przeglądarki.",
       "Obszar pamięci jest niedostępny dla serwera, a przechowywane w nim dane nie mają „terminu ważności”, po którym zostałyby usunięte.",
       "Obszar pamięci jest dostępny dla serwera, a przechowywane w nim dane nie mają „terminu ważności”, po którym zostałyby usunięte."],
       "correctAnswer":1
